@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+
+# --- Streamlit (secrets & local config) ---
+.streamlit/secrets.toml
+.streamlit/config.toml
+.streamlit/*.yaml
+
+# --- Editor/OS cruft  ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# --- Logs & scratch ---
+*.log
+logs/
+tmp/
+temp/
+
+# --- Runtime data ---
+data/
+!data/sample_*.csv
+
+
+
+
