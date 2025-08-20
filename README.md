@@ -3,7 +3,7 @@
 # Stock Price Dashboard
 Interactive **Streamlit** app for exploring equities: price + moving averages, relative performance (indexed or % return), **rolling volatility**, and **drawdowns**. Data via **Yahoo Finance** (`yfinance`, adjusted close). Plotting with **Plotly**.
 
-## Features (MVP)
+## Features
 - **Presets + pickers**: choose tickers & date range (includes Canadian banks preset)
 - **Price & MAs**: 20/50/200-day moving averages with a currency-formatted Plotly chart
 - **Relative performance**: toggle between **Indexed (100 = start)** or **Return (%)**
@@ -40,6 +40,15 @@ streamlit run app.py
 └─ tests/
    └─ test_core.py        # unit tests for core.py helpers
 ```
+
+## Screenshots
+
+| Top of Page & Sidebar | Price & MAs | Relative Performance |
+|---|---|---|
+| ![Top of Page & Sidebar](docs/top-menu-and-sidebar.png) | ![Price & MAs](docs/price-and-ma.png) | ![Relative Performance](docs/relative-performance.png) |
+| Rolling Volatility | Drawdowns |  |
+| ![Rolling Volatility](docs/rolling-volatility.png) | ![Drawdowns](docs/drawdowns.png) |  |
+
 
 ## How to Run Testing
 Option A (Makefile):
