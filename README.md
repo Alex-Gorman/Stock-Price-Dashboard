@@ -43,11 +43,13 @@ streamlit run app.py
 
 ## Screenshots
 
-| Top of Page & Sidebar | Price & MAs | Relative Performance |
-|---|---|---|
-| ![Top of Page & Sidebar](docs/top-menu-and-sidebar.png) | ![Price & MAs](docs/price-and-ma.png) | ![Relative Performance](docs/relative-performance.png) |
-| Rolling Volatility | Drawdowns |  |
-| ![Rolling Volatility](docs/rolling-volatility.png) | ![Drawdowns](docs/drawdowns.png) |  |
+| Screenshots |
+|---|
+| **Top of Page & Sidebar**<br>![Top of Page & Sidebar](docs/top-menu-and-sidebar.png) |
+| **Price & MAs**<br>![Price & MAs](docs/price-and-ma.png) |
+| **Relative Performance**<br>![Relative Performance](docs/relative-performance.png) |
+| **Rolling Volatility**<br>![Rolling Volatility](docs/rolling-volatility.png) |
+| **Drawdowns**<br>![Drawdowns](docs/drawdowns.png) |
 
 
 ## How to Run Testing
